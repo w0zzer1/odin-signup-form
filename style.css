@@ -1,0 +1,124 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(Norse-Bold.otf);
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.content{
+    display: flex;
+}
+
+.bigText{
+    width: 50vw;
+    padding-left: 40px;
+}
+
+p{
+    padding-left: 40px;
+}
+
+.left{
+    position: relative;
+    display: flex;
+}
+.leftOdinShit{
+    position: absolute;
+    background-color: black;
+    opacity: 60%;
+    top: 200px;
+    width: 40vw;
+    color: white;
+    font-family: Norse-Bold;
+    font-size: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.odin-icon{
+    height: 8rem;
+}
+
+#bgpic{
+    width: 40vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.right{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section{
+    box-shadow: 0 3px 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+button{
+    background-color: #596D48;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
+a{
+    color: #596D48;
+    font-weight: bold;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+
+}
+.form-wrap{
+    display: flex;
+    justify-content: start;
+    gap: 60px;
+}
+
+.form-field-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.felt-column,
+.right-column{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.felt-column{
+    margin-left: 40px;;
+}
+
+.text2{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.whateverText{
+    font-size: 1.5rem;
+    padding-bottom: -40px;
+    font-weight: bold;
+}
+
+input{
+    border-radius: 3px;
+    border-color: #E5E7EB;
+}
+
+
+
